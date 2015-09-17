@@ -1,0 +1,47 @@
+body{
+	margin: 0 auto;
+	width: 95%;
+	background-color: #F0EFE6;	
+}
+
+.header{
+	display: table;
+	height: 225px;
+	width: 100%;
+	
+}
+	.header_logo{
+		display: table-cell;
+		max-width: 530px;
+		max-height: 225px;
+		background-color: aqua;
+	}
+
+	@media all and (min-resolution: 190dpi){
+		.header_logo{
+			width: 380px;
+			height: 150px;
+		}
+	}
+.form_acces{
+	background-color: green;
+	display: table-cell;
+	font-weight: normal;
+	width: 20%;
+}
+	.form_acces_list{
+		margin: 0;
+		padding: 0;
+	}
+
+.menu{
+	display: table-row; 
+}
+
+.img{
+	width: 100%;
+}
+
+.lstyle_none{
+	list-style-type: none; 
+}
