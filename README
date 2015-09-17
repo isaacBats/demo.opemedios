@@ -1,0 +1,23 @@
+======== Proyecto web para Operadora de medios ========
+
+Este proyecto es una muestra de las mejoras que se le pueden dar a las paginas 
+
+http://www.opemedios.com.mx
+http://sistema.opemedios.com.mx
+
+@author: Daniel Bautista Sánchez
+@version: 1.0
+
+Dentro de las mejoras:
+
+	> El diseño sera responsive
+	> Se prentende que se vea desde cualquier dispositivo
+	> Un nuevo aspecto a la pagina
+
+Las tecnologias que se van a usar para esta muestra seran;
+
+	> HTML5
+	> CSS3
+	> JavaScript
+	> Media Query
+	> Jquery
