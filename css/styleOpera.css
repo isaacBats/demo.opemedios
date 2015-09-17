@@ -1,5 +1,4 @@
 body{
-	/*width: 95%;*/
 	background-color: black;
 	margin: 0;
 		
@@ -16,27 +15,13 @@ body{
 		display: table-cell;
 		max-width: 530px;
 		max-height: 225px;
-		/*max-height: 160px;
-		max-width: 370px;
-		background-color: aqua;*/
 	}
 
-	/*@media all and (min-resolution: 190dpi){
-		.header_logo{
-			min-width: 180px;
-			min-height: 90px;
-		}
-	}*/
-
 .form_acces{
-	/*background-color: green;*/
 	display: table-cell;
-	/*font-weight: normal;
-	width: 20%;*/
 }
 	.form_acces_list{
-		/*margin: 0;
-		padding: 0;*/
+	
 	}
 
 .menu{
