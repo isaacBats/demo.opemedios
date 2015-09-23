@@ -1,70 +1,11 @@
 body{
 	background-color: black;
-	margin: 0;
-		
 }
 
-.header{
+header, main, footer {
 	background-color: #F0EFE6;
-	display: table;
 	margin: 0 auto;
 	width: 95%;
-	
-}
-	.header_logo{
-		display: table-cell;
-		font-family: 'Lato', sans-serif; 
-		max-width: 530px;
-		max-height: 225px;
-	}
-
-.form_acces{
-	display: table-cell;
-	text-align: center;
-}
-	.form_acces_list{
-		display: inline-block;
-	}
-
-	.form_acces_item{
-		display: block;
-		margin: .3em auto;
-		padding: .1em;
-		/*text-align: center;*/	
-	}
-
-		.form_acces_title{
-			margin: 0;
-		}
-
-.menu{
-	background-color: #00659B;
-	display: table-row;
-	width: 100%;
-}
-	.menu_list{
-		width: 100%;
-	}
-	.menu_item{
-		display: inline-block;
-		/*margin: 0 1.5rem;
-		padding: .2em;
-		width: 20%;*/
-		height: 40px;
-		text-align: center;
-		width: 90px;
-	}
-
-.container{
-	background-color: #F0EFE6;
-	display: table-cell;
-	margin: 0 auto;
-	width: 95%;
-}
-
-
-.img_width_100{
-	max-width: 100%;
 }
 
 .lstyle_none{
