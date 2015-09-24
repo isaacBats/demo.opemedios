@@ -8,6 +8,55 @@ header, main, footer {
 	width: 95%;
 }
 
+.header{
+	display: table;
+}
+	.header_logo{
+		display: table-cell;
+		max-height: 225px;
+		max-width: 530px;
+	}
+
+	.form_acces{
+		display: table-cell;
+	}
+
+	.menu{
+		background-color: #00659B;
+		color: white;
+		display: table-row;
+		font-size: 1.5rem;
+		width: 100%;
+	}
+		.menu_list{
+			margin: 0 auto;
+			/*width: 100%;
+			padding: 0;*/
+		}
+
+		.menu_item{
+			background-color: #A9D0F5;
+			display: inline-block;
+			float: left;
+			margin: 0 .5rem;
+			text-align: center;
+		}
+
+		.menu_item_link{
+			display: block;
+			height: 45px;
+			padding: 10px 5px;
+			text-decoration: none;
+			width: 140px;
+		}
+			a[data-itemReduccion]{
+				font-size: 19.7px;
+			}	
+
 .lstyle_none{
 	list-style-type: none; 
+}
+
+.img_width_100{
+	max-width: 100%;
 }
