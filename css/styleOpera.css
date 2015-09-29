@@ -20,7 +20,20 @@ header, main, footer {
 	.form_acces{
 		display: table-cell;
 		float: right;
+		text-align: center;
 	}
+		.form_acces_list{
+			margin-top: -180px;
+		}
+
+		.form_acces_item{
+			display: block;
+			margin: .3em auto;
+			padding: .1em;
+		}
+			.form_acces_title{
+				margin-bottom: 0;
+			}
 
 	.menu{
 		background-color: #00659B;
@@ -58,6 +71,37 @@ header, main, footer {
 			/*a[data-itemReduccion]{
 				font-size: 19.7px;
 			}	*/
+.container{
+	display: table;
+}
+	.section_level_1{
+		display: table-cell;
+		width: 50%;
+	}
+		.descripcion{
+			color: #00659B;
+    		font-size: 30px;
+    		margin: 25px;
+    		font-family: Optima;
+		}
+
+		.actividad{
+			color: #666666;
+    		font-size: 25px;
+    		margin: 25px;
+    		font-family: Trebuchet MS;
+		}
+
+		.slider{
+			/*width: 600px;
+			height: 400px;*/
+		}
+			.image_slider{
+				/*width: 600px;
+				height: 400px;*/		
+				min-height: 400px;
+				min-width: 450px;
+			}
 
 @font-face {
   font-family: 'Mono Social Icons Font';
