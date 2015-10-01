@@ -21,6 +21,7 @@ header, main, footer {
 		display: table-cell;
 		float: right;
 		text-align: center;
+		padding-right: 3.8rem; 
 	}
 		.form_acces_list{
 			margin-top: -180px;
@@ -68,6 +69,12 @@ header, main, footer {
 			text-decoration: none;
 			width: 140px;
 		}
+			.menu_item:hover{
+				background-color:#013ADF; 
+			}
+			.menu_item_link:hover{
+				color: white;				
+			}
 			/*a[data-itemReduccion]{
 				font-size: 19.7px;
 			}	*/
@@ -77,12 +84,14 @@ header, main, footer {
 	.section_level_1{
 		display: table-cell;
 		width: 50%;
+		float: left;
 	}
 		.descripcion{
 			color: #00659B;
     		font-size: 30px;
     		margin: 25px;
     		font-family: Optima;
+    		margin-top: 70px;
 		}
 
 		.actividad{
@@ -95,13 +104,35 @@ header, main, footer {
 		.slider{
 			/*width: 600px;
 			height: 400px;*/
+			min-height: 400px;
+			min-width: 450px;
+			position: relative;
 		}
 			.image_slider{
 				/*width: 600px;
 				height: 400px;*/		
 				min-height: 400px;
 				min-width: 450px;
+				position: absolute;
+				display: none;
 			}
+.footer_home{
+	margin-top: -21px; 
+}
+	.footer__home__nav{
+		display: table;
+	}
+	.footer__home__nav li{
+		display: table-cell;
+	}
+	.footer__article{
+		font-size: 12px;
+		min-width: 295px;
+		min-height: 56px;
+	}
+	.footer__article span{
+		font-weight: bold;
+	}
 
 @font-face {
   font-family: 'Mono Social Icons Font';
@@ -130,6 +161,8 @@ a.symbol:before {
 }
 	.symbol_link{
 		text-decoration: none;
+		padding: .2em;
+		text-align: left;
 	}
 
 .lstyle_none{
@@ -140,3 +173,6 @@ a.symbol:before {
 	max-width: 100%;
 }
 
+/*
+ resolucion a bajar 1060px
+*/
